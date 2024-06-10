@@ -13,14 +13,15 @@ import model.Mbti;
 import model.Select;
 import model.SelectLogic;
 
-@WebServlet("/Main")
-public class Main extends HttpServlet {
-    private static final long serialVersionUID = 1L;
-    
-    /*String jspFileName = "WEB-INF/jsp/mbti.jsp";*/
+/**
+ * Servlet implementation class MbtiServlet
+ */
+@WebServlet("/MbtiServlet")
+public class MbtiServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/jsp/top.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/jsp/all.jsp");
         dispatcher.forward(request, response);
     }
 

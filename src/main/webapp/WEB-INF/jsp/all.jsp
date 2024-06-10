@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <style>
 	body{
-		background-color:whitesmoke;
+		background-color:#fa9638;
 	}
 	#wrapper{
 		text-align:center;
@@ -50,10 +50,10 @@
 		background-color:#3265FF;
 		}
 	.yellow-btn{
-		background-color:#FFFF00;
+		background-color:#ffdc00;
 		}
 	.yellow-btn:hover{
-		background-color:gold;
+		background-color:#c1ab05;
 		}
 	#topButton {
 		position: fixed;
@@ -72,27 +72,32 @@
 <title>MBTI一覧</title>
 </head>
 <body>
-<form action="All" method="post">
 <div id="wrapper">
 <h1>MBTI一覧</h1>
-<a href="intj.jsp" class="btn">INTJ</a>
-<a href="intp.jsp" class="btn">INTP</a>
-<a href="entj.jsp" class="btn">ENTJ</a>
-<a href="entp.jsp" class="btn">ENTP</a><br>
-<a href="infj.jsp" class="btn green-btn">INFJ</a>
-<a href="infp.jsp" class="btn green-btn">INFP</a>
-<a href="enfj.jsp" class="btn green-btn">ENFJ</a>
-<a href="enfp.jsp" class="btn green-btn">ENFP</a><br>
-<a href="istj.jsp" class="btn blue-btn">ISTJ</a>
-<a href="isfj.jsp" class="btn blue-btn">ISFJ</a>
-<a href="esfj.jsp" class="btn blue-btn">ESFJ</a>
-<a href="estj.jsp" class="btn blue-btn">ESTJ</a><br>
-<a href="istp.jsp" class="btn yellow-btn">ISTP</a>
-<a href="isfp.jsp" class="btn yellow-btn">ISFP</a>
-<a href="estp.jsp" class="btn yellow-btn">ESTP</a>
-<a href="esfp.jsp" class="btn yellow-btn">ESFP</a>
-</div>
-<a href="top.jsp" id="topButton">TOPへ</a>
+
+<form action="MbtiServlet" method="post">
+<button type="submit" name="mbti" value="1" class="btn">INTJ</button>
+<button type="submit" name="mbti" value="2" class="btn">INTP</button>
+<button type="submit" name="mbti" value="3" class="btn">ENTJ</button>
+<button type="submit" name="mbti" value="4" class="btn">ENTP</button>
+
+<button type="submit" name="mbti" value="5" class="btn green-btn">INFJ</button>
+<button type="submit" name="mbti" value="6" class="btn green-btn">INFP</button>
+<button type="submit" name="mbti" value="7" class="btn green-btn">ENFJ</button>
+<button type="submit" name="mbti" value="8" class="btn green-btn">ENFP</button>
+
+<button type="submit" name="mbti" value="9" class="btn blue-btn">ISTJ</button>
+<button type="submit" name="mbti" value="10" class="btn blue-btn">ISFJ</button>
+<button type="submit" name="mbti" value="11" class="btn blue-btn">ESFJ</button>
+<button type="submit" name="mbti" value="12" class="btn blue-btn">ESTJ</button>
+
+<button type="submit" name="mbti" value="13" class="btn yellow-btn">ISTP</button>
+<button type="submit" name="mbti" value="14" class="btn yellow-btn">ISFP</button>
+<button type="submit" name="mbti" value="15" class="btn yellow-btn">ESTP</button>
+<button type="submit" name="mbti" value="16" class="btn yellow-btn">ESFP</button>
+
 </form>
+</div>
+<a href="Main" id="topButton">TOPへ</a>
 </body>
 </html>
