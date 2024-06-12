@@ -17,11 +17,12 @@
     font-family: 'Rounded Mplus 1c', sans-serif;
 	}
 	.btn{
-		padding:0.8rem 2rem;
+		padding:0.1rem 1.5rem;
 		background-color:plum;
 		color:white;
 		font-size:30px;
 		font-weight:bold;
+		font-family: 'Rounded Mplus 1c', sans-serif;
 		border:none;
 		text-decoration:none;
 		box-shadow:0 1px 5px rgba(0,0,0,0.1);
@@ -50,10 +51,10 @@
 		background-color:#3265FF;
 		}
 	.yellow-btn{
-		background-color:#ffdc00;
+		background-color:#ffff14;
 		}
 	.yellow-btn:hover{
-		background-color:#c1ab05;
+		background-color:#fcc800;
 		}
 	#topButton {
 		position: fixed;

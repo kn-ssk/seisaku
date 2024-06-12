@@ -9,7 +9,7 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 	<meta charset="UTF-8">
 	<style>
 		body{
-			background-color:plum;
+			background-color:lightgreen;
 		}
 		
 		.wrapper{
@@ -30,12 +30,16 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 			flex: 1;
 			text-align:left;
 			padding-left: 20px;
+			margin-right: 50px;
+		}
+		
+		.left-half p {
+			white-space: nowrap;
 		}
 		
 		.right-half{
 			flex: 1;
 			text-align:right;
-			padding-left: 20px;
 		}
 		
 		h1{
@@ -43,40 +47,81 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 			display: inline-block;
 			padding: 15px;
 			border-radius: 50px;
-			background-color:purple;
+			background-color:green;
+			font-size: 40px;
+		}
+		
+		p{
+		font-size: 18px;
 		}
 		
 		.list-container{
 			border: 3px solid white;
-			padding: 70px;
 			border-radius: 30px;
-			width: 200px;
-			height: 40px;
-			display: flex;
+			width: 450px;
+			height: 230px;
+			display: inline-block; 
 			justify-content: center;
 			align-items: center;
-			margin: 0 auto;
+			margin-bottom: 30px;
 		}
 		
-		.list-container ul{
+		.list-container ul {
 			text-align: left;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		li {
+			 margin-bottom: 15px;
+			 margin-top: 15px;
+			 font-size: 20px;
+			 text-align: left;
 		}
 		
 		.rounded-image{
 			border-radius: 50%;
-			border: 3px solid purple;
+			border: 3px solid green;
 			width: 180px;
-			height: 180px;    
+			height: 180px;  
+			margin-top: 13px;  
 		}
 		
 		.job-title{
-			font-size: 23px;
+			font-size: 28px;
 			display: block;
-			background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, #800080 25%);
+			background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, #008000 25%);
 			padding: 0.5px 5px;
 			margin: 0 auto;
 			width: fit-content;
 			margin-bottom: 10px;
+		}
+		
+		#topButton {
+		font-weight: bold;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		background-color: white;
+		color: black;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		z-index: 999;
+		}
+		
+		#topButton:hover {
+		color: #008000;
+		}
+		
+		a {
+		color: #008000;
+		font-weight: bold;
+		}
+	
+		a:hover {
+		color: white;
 		}
 	</style>
 	<title>INTJ</title>
@@ -115,5 +160,6 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 		<a href="All">MBTI一覧へ</a>
 	</div>
 </form>
+<a href="Main" id="topButton">TOPへ</a>
 </body>
 </html>
