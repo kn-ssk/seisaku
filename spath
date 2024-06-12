@@ -1,0 +1,78 @@
+[33mcommit cd81954f3bdcfb1e0512c0672ab4cc9c5d2086fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Wed Jun 12 16:23:59 2024 +0900
+
+    6/12 文章構成完了しました。
+
+[33mcommit d46c1849194c1331c2f0eb768c0071e772bf6ba1[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Mon Jun 10 16:28:27 2024 +0900
+
+    6/7デザイン途中です
+
+[33mcommit 0ff2f1a0d1b6b817c62876049d78c1a63602e0a8[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Mon Jun 10 16:27:32 2024 +0900
+
+    6/10デザイン途中です
+
+[33mcommit b6a39fa7effa32831c8c22f68ff4005434ba2a64[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Fri Jun 7 16:37:19 2024 +0900
+
+    6/7 Main、jsp作成しました
+
+[33mcommit cc76abd6fa23e39289fd39dece9ac8a7d9b12114[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Fri Jun 7 16:32:58 2024 +0900
+
+    6/7 Main画面、結果画面を作成しました
+
+[33mcommit 74ca0e376b94632cad7236a183d313cd75b6570e[m
+Merge: f78ab9b 251741f
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Fri Jun 7 16:26:59 2024 +0900
+
+    Merge branch 'main' of https://github.com/kn-ssk/seisaku
+
+[33mcommit f78ab9b6946859e82aebb35a24a34479e4b2d31e[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Fri Jun 7 16:25:45 2024 +0900
+
+    6/7 Mainサーブレット、top.jspを作成しました
+
+[33mcommit 251741fc6d627eb23495807bca9cd8d489d1b874[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Thu Jun 6 17:35:44 2024 +0900
+
+    Delete JobMBTI directory
+
+[33mcommit 9fb1cc13512eeef08af76364f7fa5adbfdec6d01[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Thu Jun 6 17:26:12 2024 +0900
+
+    6/6 サーブレット途中です。
+
+[33mcommit b0e4b18a940d2e760bebfa6f0f300b804e86a386[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Wed Jun 5 16:34:02 2024 +0900
+
+    6/5 画面遷移図を作成しました。
+
+[33mcommit 2254f7a23eee8757387fb81ae1126f0edf0e2b3c[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Wed Jun 5 14:05:42 2024 +0900
+
+    初回コミットです
+
+[33mcommit 4fbb462524e2042724f323c8b4d3cd99cb038d4c[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Wed Jun 5 14:00:54 2024 +0900
+
+    初回コミットです
+
+[33mcommit b26081e5e7d0001fdd317087bf2229c9278e0e6d[m
+Author: kn-ssk <kana.sasaki.08@gmail.com>
+Date:   Wed Jun 5 13:58:07 2024 +0900
+
+    初回コミットです
