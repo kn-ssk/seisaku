@@ -13,9 +13,6 @@ import model.Mbti;
 import model.Select;
 import model.SelectLogic;
 
-/**
- * Servlet implementation class MbtiServlet
- */
 @WebServlet("/MbtiServlet")
 public class MbtiServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -29,18 +26,14 @@ public class MbtiServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         int select = Integer.parseInt(request.getParameter("mbti"));
 
-        // Selectオブジェクトを生成して、DAOに渡す
         Select selectObj = new Select(select);
 
-        // SelectLogicを使ってDAOからMBTI情報を取得
         SelectLogic logic = new SelectLogic();
         Mbti mbti = logic.execute(selectObj);
 
         if (mbti != null) {
-            // リクエスト属性にMBTI情報を設定
             request.setAttribute("mbti", mbti);
 
-            // 選択されたMBTIに基づいてJSPファイル名を決定し、フォワード
             String jspFileName;
             if (select >= 1 && select <= 4) {
                 jspFileName = "WEB-INF/jsp/group1.jsp";
@@ -54,11 +47,9 @@ public class MbtiServlet extends HttpServlet {
                 jspFileName = "WEB-INF/jsp/top.jsp";
             }
 
-            // JSPにフォワード
             RequestDispatcher dispatcher = request.getRequestDispatcher(jspFileName);
             dispatcher.forward(request, response);
         } else {
-            // エラーハンドリング
             response.sendRedirect("WEB-INF/jsp/error.jsp");
         }
     }
