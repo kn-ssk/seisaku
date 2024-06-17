@@ -16,11 +16,12 @@ public class Mbti{
 		this.character = character;
 		this.job = job;
 	}
+	
 	public int getMbtiId() {return mbtiId;}
-	public String getMbtiName() {return mbtiName;}
-	public String getMbtiType() {return mbtiType;}
-	public String getMbtiImage() {return mbtiImage;}
-	public String getCharacter() {return character;}
-	public String getJob() {return job;}
+		public String getMbtiName() {return mbtiName;}
+		public String getMbtiType() {return mbtiType;}
+		public String getMbtiImage() {return mbtiImage;}
+		public String getCharacter() {return character;}
+		public String getJob() {return job;}
 
 }
