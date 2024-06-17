@@ -7,7 +7,6 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>向いているお仕事</title>
 	<style>
 		body{
 			background-color:#ffff14;
@@ -54,7 +53,7 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 		}
 		
 		p{
-			font-size: 18px;
+		font-size: 18px;
 		}
 		
 		.list-container{
@@ -100,32 +99,33 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 		}
 		
 		#topButton {
-			font-weight: bold;
-			position: fixed;
-			top: 20px;
-			right: 20px;
-			background-color: white;
-			color: black;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			z-index: 999;
+		font-weight: bold;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		background-color: white;
+		color: black;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		z-index: 999;
 		}
 		
 		#topButton:hover {
-			color: #fcc800;
+		color: #fcc800;
 		}
 		
 		a {
-			color: #72640c;
-			font-weight: bold;
+		color: #72640c;
+		font-weight: bold;
 		}
 	
 		a:hover {
-			color: white;
+		color: white;
 		}
 	</style>
+	<title>INTJ</title>
 </head>
 
 <body>
@@ -149,7 +149,7 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 		<div class="job-title">向いているお仕事</div>
 		<div class="list-container">
 			<ul>
-				<%
+				<% 
 					String jobList = selectMbti.getJob();
 					String[] jobs = jobList.split("/");
 					for (String job : jobs) {
@@ -158,7 +158,7 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 				<% } %>
 			</ul>
 		</div><br>
-		<a href="AllServlet">MBTI一覧へ</a>
+		<a href="All">MBTI一覧へ</a>
 	</div>
 </form>
 <a href="Main" id="topButton">TOPへ</a>

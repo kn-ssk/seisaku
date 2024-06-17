@@ -7,7 +7,6 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>向いているお仕事</title>
 	<style>
 		body{
 			background-color:plum;
@@ -125,6 +124,7 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 		color: white;
 		}
 	</style>
+	<title>INTJ</title>
 </head>
 
 <body>
@@ -157,7 +157,7 @@ Mbti selectMbti = (Mbti)request.getAttribute("mbti");%>
 				<% } %>
 			</ul>
 		</div><br>
-		<a href="AllServlet">MBTI一覧へ</a>
+		<a href="All">MBTI一覧へ</a>
 	</div>
 </form>
 <a href="Main" id="topButton">TOPへ</a>

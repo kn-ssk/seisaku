@@ -10,8 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet("/AllServlet")
-public class AllServlet extends HttpServlet {
+/**
+ * Servlet implementation class All
+ */
+@WebServlet("/All")
+public class All extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -20,5 +23,8 @@ public class AllServlet extends HttpServlet {
 		
 		RequestDispatcher dispatcher =request.getRequestDispatcher("WEB-INF/jsp/all.jsp");
 		dispatcher.forward(request, response);
+		// TODO Auto-generated method stub
 	}
+
+
 }
